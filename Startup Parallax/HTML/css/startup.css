@@ -491,9 +491,10 @@ to {
 .pricing .planname {
 	text-transform:uppercase;
 	font-weight:600;
+	font-size:20px;
 }
 .pricing .price {
-	font-size:52px;
+	font-size:35px;
 	font-weight:300;
 	margin:10px 0;
 }
@@ -511,6 +512,7 @@ to {
 	display:inline-block;
 	font-size:20px;
 	vertical-align: baseline;
+	padding-left: 10px;
 }
 .color1 {
 	background-color:#b7dee7;

@@ -1,12 +1,12 @@
 <?php
-$apiKey = 'e04c8d1186959dbfc5e645a02805a3d9-us7';
-$listId = 'bdcd4b0a73';
+$apiKey = 'c0b8183e74da412412a9f7161d0bb23b-us8';
+$listId = '6e42c28d90';
 $double_optin=true;
 $send_welcome=true;
 $email_type = 'html';
 $email = $_POST['email'];
 //replace us2 with your actual datacenter
-$submit_url = "http://us7.api.mailchimp.com/1.3/?method=listSubscribe";
+$submit_url = "http://us8.api.mailchimp.com/1.3/?method=listSubscribe";
 $data = array(
     'email_address'=>$email,
     'apikey'=>$apiKey,
