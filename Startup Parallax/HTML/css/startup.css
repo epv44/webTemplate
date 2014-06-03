@@ -156,7 +156,7 @@ a:hover, a:focus {
 }
 .highlight {
 	background:#f4f4f4;
-	margin-top:40px;
+	margin-top:0px;
 }
 /*========== 2. HEADER ==============*/
 
@@ -367,12 +367,29 @@ to {
 	margin-top:60px;
 	margin-bottom:30px;
 }
+
 .section-title h2 {
 	color:#384047;
 }
+
 .section-title h4 {
 	color:#94a3a8;
 }
+
+.section-titleEV {
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+.section-titleEV h2{
+	color:#384047;
+}
+
+.section-titleEV h4{
+	color:#94a3a8;
+}
+
 .heroimg img, .clientlogo img {
 	max-width:100%;
 }
@@ -380,6 +397,7 @@ to {
 
 .features {
 	margin:25px 0;
+	padding-top: 25px;
 }
 .thumbnail {
 	border:0;
