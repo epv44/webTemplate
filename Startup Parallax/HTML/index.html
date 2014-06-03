@@ -4,8 +4,9 @@
 <!-- Meta, title, CSS, favicons, etc. -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="MANGO, to  advertise your  College, University or Business internationally">
-<title>MANGO Advertising</title>
+<meta name="description" content="MANGO, advertise your College, University or Business internationally">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>MANGO College Advertising</title>
 
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -33,11 +34,11 @@
 <main id="top" class="masthead" role="main">
   <div class="container"> 
     <!-- Startup Logo -->
-    <div class="logo"> <a href="#"><img src="images/startup-template-logo.png" alt="startup-logo"></a> </div>
+    <div class="logo"> <a href="#"><img src="images/whitemangologo.png" alt="startup-logo"></a> </div>
     <!-- Hero Title -->
     <h1>
-      <span style="text-shadow: 1px 1px 1px #666666;">The Most <span data-typer-targets="Easy,Effective,Advanced,Cost Effective,Simple">Simple</span> Way
-      to <strong>Advertise</strong> <br>Your College or University to International Students.</span>
+      <span style="text-shadow: 3px 2px 1px #666666;">The Most <span data-typer-targets="Easy,Advanced,Cost Effective,Simple">Simple</span> Way
+      to <strong>Advertise</strong> <br>Your College Internationally.</span>
     </h1>
     <a name = "contact"> </a>
     <!-- Mailchimp Subscribe form -->
@@ -49,6 +50,7 @@
               <input class="form-control input-lg" name="email" type="email" id="address" placeholder="Enter your email" data-validate="validate(required, email)" required="required">
             </div>
             <div class="col-md-5 col-sm-4">
+              <a href="#email"> </a>
               <button type="submit" class="btn btn-success btn-lg">GET EARLY ACCESS</button>
             </div>
           </div>
@@ -58,7 +60,7 @@
     <!-- // Mailchimp Subscribe form Ends --> 
     <!--  Scroll to Explore --> 
     <a href="#explore" class="scrollto">
-    <p>SCROLL DOWN TO EXPLORE</p>
+    <p class='explore-title'>SCROLL DOWN TO EXPLORE</p>
     <p class="scrollto--arrow"><img src="images/scroll_down.png" alt="scroll down arrow"></p>
     </a> 
     <!-- // Scroll to Explore Ends --> 
@@ -161,10 +163,25 @@
         <div class="billing"><strong>Free Pilot Program</strong> <p> Signup for more information!</div>
       </div>
     </div>
-    <button class="btn btn-success btn-lg">Signup Now</button>
   </section>
+  <h3> Enter your email address to recieve more information and take part in the free pilot program <h3>
   <!-- // End Pricing --> 
-    
+  <!-- // Mailchimp form --> 
+    <div class="row">
+      <div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+        <form class="form-horizontal" role="form" action="subscribe.php" id="subscribeForm" method="POST">
+          <div class="form-group">
+            <div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
+              <input class="form-control input-lg" name="email" type="email" id="address" placeholder="Enter your email" data-validate="validate(required, email)" required="required">
+            </div>
+            <div class="col-md-5 col-sm-4">
+              <a href="#email"> </a>
+              <button type="submit" class="btn btn-success btn-lg">GET EARLY ACCESS</button>
+            </div>
+          </div>
+        </form>
+        <span id="result" class="alertMsg"></span> </div>
+    </div>
   </div>
 </div>
 <!-- // End Grey Highlight Section --> 
